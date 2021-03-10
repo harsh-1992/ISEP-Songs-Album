@@ -1,0 +1,42 @@
+.item:hover {
+  font-size: large;
+  cursor: pointer;
+}
+.addSong {
+  text-align: left;
+  padding-top: 0px;
+}
+
+table {
+  width: 100%;
+}
+tr {
+  border: 1px solid green;
+}
+
+.listMaster {
+  text-align: left;
+}
+.inputText {
+  width: 80%;
+}
+.listDiv {
+  width: 80%;
+  border: 1px solid green;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 2px;
+  height: 300px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
